@@ -39,7 +39,7 @@ public class TestClass1 {
 	
 	@AfterClass
 	public void quitDriver() {
-		driver.quit();
+		driver.close();
 	}
 
 }
